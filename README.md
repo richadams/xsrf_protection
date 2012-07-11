@@ -1,7 +1,7 @@
 # XSRF/CSRF Protection
 
-Version: 0.1
-Auhtor: Rich Adams (http://richadams.me)
+Version: 0.1  
+Author: Rich Adams (http://richadams.me)  
 Licensed under the GPL.
 
 ## Overview
@@ -21,7 +21,7 @@ Only tested in Symphony CMS 2.3
 ## Installation
 
   - Unzip the file.
-  - Put the ***xsrf_protection** folder into your extension directory.
+  - Put the ***xsrf_protection*** folder into your extension directory.
   - Enable the same as any other extension.
   - Add the following to your configuration file,
   
