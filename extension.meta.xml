@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="xsrf_protection" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>XSRF/CSRF Protection</name>
+	<description>Validates all POST requests on backend were intentional and not part of a forged request.</description>
+	<types>
+		<type>Workflow</type>
+	</types>
+	<authors>
+		<author>
+			<name github="richadams">Rich Adams</name>
+			<website>http://richadams.me/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2012-07-09" min="2.3">
+			- Initial release.
+		</release>
+	</releases>
+</extension>
