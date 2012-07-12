@@ -83,6 +83,9 @@ class XSRF
             }
         }
 
+        // Clear the token that was used
+        unset($_SESSION["xsrf_tokens"][$_POST["xsrf"]]);
+
         // We're all good, so clear any tokens that can be cleared
         if (Symphony::Configuration()->get("invalidate-tokens-on-request", "xsrf-protection"))
         {
